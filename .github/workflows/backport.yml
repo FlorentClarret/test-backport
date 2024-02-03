@@ -24,5 +24,5 @@ jobs:
       - uses: tibdex/backport@v2
         with:
           label_pattern: "^backport/(?<base>([^ ]+))$"
-          labels_template: "['backport', 'bot']" 
+          labels_template: "[\"backport\", \"bot\"]" 
           github_token: ${{ secrets.GITHUB_TOKEN }}
